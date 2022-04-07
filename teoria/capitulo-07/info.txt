@@ -1,0 +1,40 @@
+
+* ===================================================================================================================
+
+ActiveMQ
+  https://activemq.apache.org/
+
+  Utilizaremos classic
+  https://activemq.apache.org/components/classic
+
+  Download
+  https://activemq.apache.org/components/classic/download/
+
+  En mi caso descomprimí en: /opt/activemq
+  Ejecutar: /opt/activemq/apache-activemq-5.17.0-bin/apache-activemq-5.17.0/bin $ ./activemq start
+  Ir a url: http://localhost:8161/admin/ (user: admin/ pass: admin)
+  Las claves están en: /opt/activemq/apache-activemq-5.17.0-bin/apache-activemq-5.17.0/conf/jetty-realm.properties
+
+* ===================================================================================================================
+
+Ejemplo Producer, Consumer (sync y/o async), Browser
+Proyecto: capitulo-7-ejemplo-jms-sync-async-consumer
+  Contenido:
+    Producer
+    Browser
+    Consumer SYNC
+    Consumer ASYNC
+
+* ===================================================================================================================
+
+Ejemplo Producer API REST y Consumer Listener
+Proyecto: capitulo-7-ejemplo-api-rest-producer-consumer
+Crear proyecto Spring Boot: https://start.spring.io/
+  Dependencias:
+    Web, Devtools
+
+Eclipse:
+  En eclipse marketplace instalar: Spring Tools 4
+
+* ===================================================================================================================
+

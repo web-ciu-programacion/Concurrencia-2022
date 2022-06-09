@@ -25,6 +25,11 @@ Proyecto: capitulo-7-ejemplo-jms-sync-async-consumer
     Consumer SYNC
     Consumer ASYNC
 
+  Observar en el siguiente orden:
+    1 - ar.com.ciu.jms.queue.producer.JmsProducerQueueMessage
+    2 - ar.com.ciu.jms.queue.sync.consumer.JmsSyncQueueConsumer
+    3 - ar.com.ciu.jms.queue.async.consumer.JmsAsyncQueueConsumer
+
 * ===================================================================================================================
 
 Ejemplo Producer API REST y Consumer Listener
@@ -35,6 +40,8 @@ Crear proyecto Spring Boot: https://start.spring.io/
 
 Eclipse:
   En eclipse marketplace instalar: Spring Tools 4
+  
+En este proyecto el Consumidor en un Listener, ver como hacer bloqueante, resolver los problemas así, investigar
 
 * ===================================================================================================================
 

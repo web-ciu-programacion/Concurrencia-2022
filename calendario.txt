@@ -1,0 +1,16 @@
+Inicio cursada: 28 de Marzo
+  Marzo: 1 clase
+    31/03/2022:
+      Capítulo 1
+      Capítulo 2
+  Abril: 4 clases
+    07/04/2022:
+      Capítulo 2
+    14/04/2022:
+      Capítulo 2 y Capítulo 3
+    21/04/2022:
+    28/04/2022:
+  Mayo:  4 clases
+  Junio: 5 clases
+  Julio: 3 clases
+Finalización cursada: 22 de Julio
